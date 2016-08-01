@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "magience.CSharp", "magience.CSharp.csproj", "{4F947FAA-A8AE-D1E1-776F-4EDA4ABA0B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F947FAA-A8AE-D1E1-776F-4EDA4ABA0B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F947FAA-A8AE-D1E1-776F-4EDA4ABA0B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F947FAA-A8AE-D1E1-776F-4EDA4ABA0B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F947FAA-A8AE-D1E1-776F-4EDA4ABA0B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
