@@ -28,9 +28,15 @@ public class PlayerInputController : NetworkBehaviour {
         animator = gameobjHeroAva.GetComponent<Animator>();
     }
 
-    
+    [SyncVar]
     public int int_idle_walk = 0; //0 for idle, 1 for walk  
+
+    [SyncVar]
     public int intDir = 2;  //0 for up, 1 for right, 2 for down, 3 for left
+
+
+    private int self_intIdle=0;
+    private int self_intDir=2;
 
     public float floFireRate;
 
@@ -44,7 +50,16 @@ public class PlayerInputController : NetworkBehaviour {
     // Update is called once per frame
     void Update () {
 
+        if ((self_intIdle != int_idle_walk) || (self_intDir != intDir))
+        {
+            Debug.Log("Get called!");
+            self_intIdle = int_idle_walk;
+            self_intDir = intDir;
+            DoAnimation(self_intIdle, self_intDir);
+        }
+
         if (!isLocalPlayer) {
+            
             return;
         }
 
@@ -86,7 +101,7 @@ public class PlayerInputController : NetworkBehaviour {
         {
             if (tempMovingV3.magnitude > 0.4f)
             {
-                float rot_z = Mathf.Atan2(tempMovingV3.y, tempMovingV3.x) * Mathf.Rad2Deg;
+                //float rot_z = Mathf.Atan2(tempMovingV3.y, tempMovingV3.x) * Mathf.Rad2Deg;
                 //gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 //walk
@@ -127,22 +142,22 @@ public class PlayerInputController : NetworkBehaviour {
 
     }
 
-    [ClientCallback]    
+    [Command]    
     void CmdSyncAnimation(int idleornot, int walkdir)
     {
         if ((idleornot != int_idle_walk) || (walkdir != intDir)) {
             int_idle_walk = idleornot;
             intDir = walkdir;
-            DoAnimation();        
+            DoAnimation(int_idle_walk,intDir);        
         }
     }
 
-    //[ClientCallback]
-    void DoAnimation() {
+    
+    void DoAnimation(int tempidle, int tempdir) {
 
-        if (int_idle_walk == 0)
+        if (tempidle == 0)
         {
-            switch (intDir)
+            switch (tempdir)
             {
                 case 1:
                     animator.SetTrigger("idleright");
@@ -160,7 +175,7 @@ public class PlayerInputController : NetworkBehaviour {
         }
         else
         {
-            switch (intDir)
+            switch (tempdir)
             {
                 case 1:
                     animator.SetTrigger("walkright");

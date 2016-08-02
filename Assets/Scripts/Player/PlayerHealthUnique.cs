@@ -61,8 +61,7 @@ public class PlayerHealthUnique : NetworkBehaviour
 
     void OnChangeHealth(int health)
     {
-        Debug.Log(health);
-        Debug.Log(UIhealthBar.sizeDelta);
+
         healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);
         UIhealthBar.offsetMax=new Vector2(- 250 * (100 - health)/100f, UIhealthBar.offsetMax.y);
         UIHPText.text = (health).ToString()+"%";
