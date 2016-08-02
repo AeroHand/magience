@@ -17,10 +17,20 @@ public class PlayerInputController : NetworkBehaviour {
     }
 
     
+    
 
     public GameObject gameobjBullet;
     public GameObject gameobjHeroAva;
+    Animator animator;
 
+    void Start()
+    {
+        animator = gameobjHeroAva.GetComponent<Animator>();
+    }
+
+    
+    public int int_idle_walk = 0; //0 for idle, 1 for walk  
+    public int intDir = 2;  //0 for up, 1 for right, 2 for down, 3 for left
 
     public float floFireRate;
 
@@ -58,7 +68,7 @@ public class PlayerInputController : NetworkBehaviour {
             //change facing vec3
 
             float rot_z = Mathf.Atan2(tempShootingV3.y, tempShootingV3.x) * Mathf.Rad2Deg;
-            gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+            //gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
 
             //check fire rate
@@ -77,12 +87,96 @@ public class PlayerInputController : NetworkBehaviour {
             if (tempMovingV3.magnitude > 0.4f)
             {
                 float rot_z = Mathf.Atan2(tempMovingV3.y, tempMovingV3.x) * Mathf.Rad2Deg;
-                gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+                //gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+
+                //walk
+                if (tempMovingV3.x > 0.1f)
+                {
+                    CmdSyncAnimation(1, 1);
+                }
+                else {
+                    if (tempMovingV3.x < -0.1f)
+                    {
+                        CmdSyncAnimation(1, 3);
+                    }
+                    else {
+                        if (tempMovingV3.y > 0.1f)
+                        {
+                            CmdSyncAnimation(1, 2);
+                        }
+                        else
+                        {
+                            if (tempMovingV3.y < -0.1f)
+                            {
+                                CmdSyncAnimation(1, 0);
+                            }
+                            else
+                            {
+                                Debug.Log("Not gonna happen");
+                            }
+                        }
+                    }
+                }
+                
+            }
+            else {
+                //idle
+                CmdSyncAnimation(0, intDir);
             }
         }
 
     }
 
+    [ClientCallback]    
+    void CmdSyncAnimation(int idleornot, int walkdir)
+    {
+        if ((idleornot != int_idle_walk) || (walkdir != intDir)) {
+            int_idle_walk = idleornot;
+            intDir = walkdir;
+            DoAnimation();        
+        }
+    }
+
+    //[ClientCallback]
+    void DoAnimation() {
+
+        if (int_idle_walk == 0)
+        {
+            switch (intDir)
+            {
+                case 1:
+                    animator.SetTrigger("idleright");
+                    break;
+                case 0:
+                    animator.SetTrigger("idledown");
+                    break;
+                case 3:
+                    animator.SetTrigger("idleleft");
+                    break;
+                case 2:
+                    animator.SetTrigger("idleup");
+                    break;
+            }
+        }
+        else
+        {
+            switch (intDir)
+            {
+                case 1:
+                    animator.SetTrigger("walkright");
+                    break;
+                case 0:
+                    animator.SetTrigger("walkdown");
+                    break;
+                case 3:
+                    animator.SetTrigger("walkleft");
+                    break;
+                case 2:
+                    animator.SetTrigger("walkup");
+                    break;
+            }
+        }
+    }
 
     public void SetTeam(int curteam) {
 

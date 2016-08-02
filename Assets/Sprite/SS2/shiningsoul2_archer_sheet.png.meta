@@ -1,0 +1,2641 @@
+fileFormatVersion: 2
+guid: 504ea1b792673864b8f7130285a5a62e
+timeCreated: 1470095852
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: shiningsoul2_archer_sheet_0
+    21300002: shiningsoul2_archer_sheet_1
+    21300004: shiningsoul2_archer_sheet_2
+    21300006: shiningsoul2_archer_sheet_3
+    21300008: shiningsoul2_archer_sheet_4
+    21300010: shiningsoul2_archer_sheet_5
+    21300012: shiningsoul2_archer_sheet_6
+    21300014: shiningsoul2_archer_sheet_7
+    21300016: shiningsoul2_archer_sheet_8
+    21300018: shiningsoul2_archer_sheet_9
+    21300020: shiningsoul2_archer_sheet_10
+    21300022: shiningsoul2_archer_sheet_11
+    21300024: shiningsoul2_archer_sheet_12
+    21300026: shiningsoul2_archer_sheet_13
+    21300028: shiningsoul2_archer_sheet_14
+    21300030: shiningsoul2_archer_sheet_15
+    21300032: shiningsoul2_archer_sheet_16
+    21300034: shiningsoul2_archer_sheet_17
+    21300036: shiningsoul2_archer_sheet_18
+    21300038: shiningsoul2_archer_sheet_19
+    21300040: shiningsoul2_archer_sheet_20
+    21300042: shiningsoul2_archer_sheet_21
+    21300044: shiningsoul2_archer_sheet_22
+    21300046: shiningsoul2_archer_sheet_23
+    21300048: shiningsoul2_archer_sheet_24
+    21300050: shiningsoul2_archer_sheet_25
+    21300052: shiningsoul2_archer_sheet_26
+    21300054: shiningsoul2_archer_sheet_27
+    21300056: shiningsoul2_archer_sheet_28
+    21300058: shiningsoul2_archer_sheet_29
+    21300060: shiningsoul2_archer_sheet_30
+    21300062: shiningsoul2_archer_sheet_31
+    21300064: shiningsoul2_archer_sheet_32
+    21300066: shiningsoul2_archer_sheet_33
+    21300068: shiningsoul2_archer_sheet_34
+    21300070: shiningsoul2_archer_sheet_35
+    21300072: shiningsoul2_archer_sheet_36
+    21300074: shiningsoul2_archer_sheet_37
+    21300076: shiningsoul2_archer_sheet_38
+    21300078: shiningsoul2_archer_sheet_39
+    21300080: shiningsoul2_archer_sheet_40
+    21300082: shiningsoul2_archer_sheet_41
+    21300084: shiningsoul2_archer_sheet_42
+    21300086: shiningsoul2_archer_sheet_43
+    21300088: shiningsoul2_archer_sheet_44
+    21300090: shiningsoul2_archer_sheet_45
+    21300092: shiningsoul2_archer_sheet_46
+    21300094: shiningsoul2_archer_sheet_47
+    21300096: shiningsoul2_archer_sheet_48
+    21300098: shiningsoul2_archer_sheet_49
+    21300100: shiningsoul2_archer_sheet_50
+    21300102: shiningsoul2_archer_sheet_51
+    21300104: shiningsoul2_archer_sheet_52
+    21300106: shiningsoul2_archer_sheet_53
+    21300108: shiningsoul2_archer_sheet_54
+    21300110: shiningsoul2_archer_sheet_55
+    21300112: shiningsoul2_archer_sheet_56
+    21300114: shiningsoul2_archer_sheet_57
+    21300116: shiningsoul2_archer_sheet_58
+    21300118: shiningsoul2_archer_sheet_59
+    21300120: shiningsoul2_archer_sheet_60
+    21300122: shiningsoul2_archer_sheet_61
+    21300124: shiningsoul2_archer_sheet_62
+    21300126: shiningsoul2_archer_sheet_63
+    21300128: shiningsoul2_archer_sheet_64
+    21300130: shiningsoul2_archer_sheet_65
+    21300132: shiningsoul2_archer_sheet_66
+    21300134: shiningsoul2_archer_sheet_67
+    21300136: shiningsoul2_archer_sheet_68
+    21300138: shiningsoul2_archer_sheet_69
+    21300140: shiningsoul2_archer_sheet_70
+    21300142: shiningsoul2_archer_sheet_71
+    21300144: shiningsoul2_archer_sheet_72
+    21300146: shiningsoul2_archer_sheet_73
+    21300148: shiningsoul2_archer_sheet_74
+    21300150: shiningsoul2_archer_sheet_75
+    21300152: shiningsoul2_archer_sheet_76
+    21300154: shiningsoul2_archer_sheet_77
+    21300156: shiningsoul2_archer_sheet_78
+    21300158: shiningsoul2_archer_sheet_79
+    21300160: shiningsoul2_archer_sheet_80
+    21300162: shiningsoul2_archer_sheet_81
+    21300164: shiningsoul2_archer_sheet_82
+    21300166: shiningsoul2_archer_sheet_83
+    21300168: shiningsoul2_archer_sheet_84
+    21300170: shiningsoul2_archer_sheet_85
+    21300172: shiningsoul2_archer_sheet_86
+    21300174: shiningsoul2_archer_sheet_87
+    21300176: shiningsoul2_archer_sheet_88
+    21300178: shiningsoul2_archer_sheet_89
+    21300180: shiningsoul2_archer_sheet_90
+    21300182: shiningsoul2_archer_sheet_91
+    21300184: shiningsoul2_archer_sheet_92
+    21300186: shiningsoul2_archer_sheet_93
+    21300188: shiningsoul2_archer_sheet_94
+    21300190: shiningsoul2_archer_sheet_95
+    21300192: shiningsoul2_archer_sheet_96
+    21300194: shiningsoul2_archer_sheet_97
+    21300196: shiningsoul2_archer_sheet_98
+    21300198: shiningsoul2_archer_sheet_99
+    21300200: shiningsoul2_archer_sheet_100
+    21300202: shiningsoul2_archer_sheet_101
+    21300204: shiningsoul2_archer_sheet_102
+    21300206: shiningsoul2_archer_sheet_103
+    21300208: shiningsoul2_archer_sheet_104
+    21300210: shiningsoul2_archer_sheet_105
+    21300212: shiningsoul2_archer_sheet_106
+    21300214: shiningsoul2_archer_sheet_107
+    21300216: shiningsoul2_archer_sheet_108
+    21300218: shiningsoul2_archer_sheet_109
+    21300220: shiningsoul2_archer_sheet_110
+    21300222: shiningsoul2_archer_sheet_111
+    21300224: shiningsoul2_archer_sheet_112
+    21300226: shiningsoul2_archer_sheet_113
+    21300228: shiningsoul2_archer_sheet_114
+    21300230: shiningsoul2_archer_sheet_115
+    21300232: shiningsoul2_archer_sheet_116
+    21300234: shiningsoul2_archer_sheet_117
+    21300236: shiningsoul2_archer_sheet_118
+    21300238: shiningsoul2_archer_sheet_119
+    21300240: shiningsoul2_archer_sheet_120
+    21300242: shiningsoul2_archer_sheet_121
+    21300244: shiningsoul2_archer_sheet_122
+    21300246: shiningsoul2_archer_sheet_123
+    21300248: shiningsoul2_archer_sheet_124
+    21300250: shiningsoul2_archer_sheet_125
+    21300252: shiningsoul2_archer_sheet_126
+    21300254: shiningsoul2_archer_sheet_127
+    21300256: shiningsoul2_archer_sheet_128
+    21300258: shiningsoul2_archer_sheet_129
+    21300260: shiningsoul2_archer_sheet_130
+    21300262: shiningsoul2_archer_sheet_131
+    21300264: shiningsoul2_archer_sheet_132
+    21300266: shiningsoul2_archer_sheet_133
+    21300268: shiningsoul2_archer_sheet_134
+    21300270: shiningsoul2_archer_sheet_135
+    21300272: shiningsoul2_archer_sheet_136
+    21300274: shiningsoul2_archer_sheet_137
+    21300276: shiningsoul2_archer_sheet_138
+    21300278: shiningsoul2_archer_sheet_139
+    21300280: shiningsoul2_archer_sheet_140
+    21300282: shiningsoul2_archer_sheet_141
+    21300284: shiningsoul2_archer_sheet_142
+    21300286: shiningsoul2_archer_sheet_143
+    21300288: shiningsoul2_archer_sheet_144
+    21300290: shiningsoul2_archer_sheet_145
+    21300292: shiningsoul2_archer_sheet_146
+    21300294: shiningsoul2_archer_sheet_147
+    21300296: shiningsoul2_archer_sheet_148
+    21300298: shiningsoul2_archer_sheet_149
+    21300300: shiningsoul2_archer_sheet_150
+    21300302: shiningsoul2_archer_sheet_151
+    21300304: shiningsoul2_archer_sheet_152
+    21300306: shiningsoul2_archer_sheet_153
+    21300308: shiningsoul2_archer_sheet_154
+    21300310: shiningsoul2_archer_sheet_155
+    21300312: shiningsoul2_archer_sheet_156
+    21300314: shiningsoul2_archer_sheet_157
+    21300316: shiningsoul2_archer_sheet_158
+    21300318: shiningsoul2_archer_sheet_159
+    21300320: shiningsoul2_archer_sheet_160
+    21300322: shiningsoul2_archer_sheet_161
+    21300324: shiningsoul2_archer_sheet_162
+    21300326: shiningsoul2_archer_sheet_163
+    21300328: shiningsoul2_archer_sheet_164
+    21300330: shiningsoul2_archer_sheet_165
+    21300332: shiningsoul2_archer_sheet_166
+    21300334: shiningsoul2_archer_sheet_167
+    21300336: shiningsoul2_archer_sheet_168
+    21300338: shiningsoul2_archer_sheet_169
+    21300340: shiningsoul2_archer_sheet_170
+    21300342: shiningsoul2_archer_sheet_171
+    21300344: shiningsoul2_archer_sheet_172
+    21300346: shiningsoul2_archer_sheet_173
+    21300348: shiningsoul2_archer_sheet_174
+    21300350: shiningsoul2_archer_sheet_175
+    21300352: shiningsoul2_archer_sheet_176
+    21300354: shiningsoul2_archer_sheet_177
+    21300356: shiningsoul2_archer_sheet_178
+    21300358: shiningsoul2_archer_sheet_179
+    21300360: shiningsoul2_archer_sheet_180
+    21300362: shiningsoul2_archer_sheet_181
+    21300364: shiningsoul2_archer_sheet_182
+    21300366: shiningsoul2_archer_sheet_183
+    21300368: shiningsoul2_archer_sheet_184
+    21300370: shiningsoul2_archer_sheet_185
+    21300372: shiningsoul2_archer_sheet_186
+    21300374: shiningsoul2_archer_sheet_187
+    21300376: shiningsoul2_archer_sheet_188
+    21300378: shiningsoul2_archer_sheet_189
+    21300380: shiningsoul2_archer_sheet_190
+    21300382: shiningsoul2_archer_sheet_191
+    21300384: shiningsoul2_archer_sheet_192
+    21300386: shiningsoul2_archer_sheet_193
+    21300388: shiningsoul2_archer_sheet_194
+    21300390: shiningsoul2_archer_sheet_195
+    21300392: shiningsoul2_archer_sheet_196
+    21300394: shiningsoul2_archer_sheet_197
+    21300396: shiningsoul2_archer_sheet_198
+    21300398: shiningsoul2_archer_sheet_199
+    21300400: shiningsoul2_archer_sheet_200
+    21300402: shiningsoul2_archer_sheet_201
+    21300404: shiningsoul2_archer_sheet_202
+    21300406: shiningsoul2_archer_sheet_203
+    21300408: shiningsoul2_archer_sheet_204
+    21300410: shiningsoul2_archer_sheet_205
+    21300412: shiningsoul2_archer_sheet_206
+    21300414: shiningsoul2_archer_sheet_207
+    21300416: shiningsoul2_archer_sheet_208
+    21300418: shiningsoul2_archer_sheet_209
+    21300420: shiningsoul2_archer_sheet_210
+    21300422: shiningsoul2_archer_sheet_211
+    21300424: shiningsoul2_archer_sheet_212
+    21300426: shiningsoul2_archer_sheet_213
+    21300428: shiningsoul2_archer_sheet_214
+    21300430: shiningsoul2_archer_sheet_215
+    21300432: shiningsoul2_archer_sheet_216
+    21300434: shiningsoul2_archer_sheet_217
+    21300436: shiningsoul2_archer_sheet_218
+    21300438: shiningsoul2_archer_sheet_219
+    21300440: shiningsoul2_archer_sheet_220
+    21300442: shiningsoul2_archer_sheet_221
+    21300444: shiningsoul2_archer_sheet_222
+    21300446: shiningsoul2_archer_sheet_223
+    21300448: shiningsoul2_archer_sheet_224
+    21300450: shiningsoul2_archer_sheet_225
+    21300452: shiningsoul2_archer_sheet_226
+    21300454: shiningsoul2_archer_sheet_227
+    21300456: shiningsoul2_archer_sheet_228
+    21300458: shiningsoul2_archer_sheet_229
+    21300460: shiningsoul2_archer_sheet_230
+    21300462: shiningsoul2_archer_sheet_231
+    21300464: shiningsoul2_archer_sheet_232
+    21300466: shiningsoul2_archer_sheet_233
+    21300468: shiningsoul2_archer_sheet_234
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: shiningsoul2_archer_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1301
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1301
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1301
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1251
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1201
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1201
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1201
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1201
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1150
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1151
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1150
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1150
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1150
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1151
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1151
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1101
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1101
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1102
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1101
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1101
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1101
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1102
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1101
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1050
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1051
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1051
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1051
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1050
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1051
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1051
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1051
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1001
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1001
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1001
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1001
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1001
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1001
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1001
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1001
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 954
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 953
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 952
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 953
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 954
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 953
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 952
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 953
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 946
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 946
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 945
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 904
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 903
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 902
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 902
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 903
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 902
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 902
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 903
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 851
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 851
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 851
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 851
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 851
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 851
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 851
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 851
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 800
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 801
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 801
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 800
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 800
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 800
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 801
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 801
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 751
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 751
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 752
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 751
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 751
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 751
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 752
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 751
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 700
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 701
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 701
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 701
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 700
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 701
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 701
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 701
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 651
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 651
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 651
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 651
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 651
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 651
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 651
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 651
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 604
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 603
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 602
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 603
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 604
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 603
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 602
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 603
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 596
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 596
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 595
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 551
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 551
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 551
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 551
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 551
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 551
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 551
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 551
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 501
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 501
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 501
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 501
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 501
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 501
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 501
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 501
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 451
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 451
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 451
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 451
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 452
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 451
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 451
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 451
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 405
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 411
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 414
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 411
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 405
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 411
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 414
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 411
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 351
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 351
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 351
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 351
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 351
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 351
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 351
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 301
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 300
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 300
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 300
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 301
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 301
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 251
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 251
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 252
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 251
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 251
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 251
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 252
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 251
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 200
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 201
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 201
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 200
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 201
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 201
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 201
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 151
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 151
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 151
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 151
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 151
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 151
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 151
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 151
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 103
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 102
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 103
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 104
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 103
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 102
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 103
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_214
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 96
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 96
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_219
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 95
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_220
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_221
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 56
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_222
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 56
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_223
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 54
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_224
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 55
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_225
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 54
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_226
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 56
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_227
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 56
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_228
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_229
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_230
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_231
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_232
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_233
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shiningsoul2_archer_sheet_234
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
