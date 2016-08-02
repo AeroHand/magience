@@ -52,7 +52,6 @@ public class PlayerInputController : NetworkBehaviour {
 
         if ((self_intIdle != int_idle_walk) || (self_intDir != intDir))
         {
-            Debug.Log("Get called!");
             self_intIdle = int_idle_walk;
             self_intDir = intDir;
             DoAnimation(self_intIdle, self_intDir);
@@ -105,23 +104,23 @@ public class PlayerInputController : NetworkBehaviour {
                 //gameobjHeroAva.transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 //walk
-                if (tempMovingV3.x > 0.1f)
+                if (tempMovingV3.x > 0.2f)
                 {
                     CmdSyncAnimation(1, 1);
                 }
                 else {
-                    if (tempMovingV3.x < -0.1f)
+                    if (tempMovingV3.x < -0.2f)
                     {
                         CmdSyncAnimation(1, 3);
                     }
                     else {
-                        if (tempMovingV3.y > 0.1f)
+                        if (tempMovingV3.y > 0.2f)
                         {
                             CmdSyncAnimation(1, 2);
                         }
                         else
                         {
-                            if (tempMovingV3.y < -0.1f)
+                            if (tempMovingV3.y < -0.2f)
                             {
                                 CmdSyncAnimation(1, 0);
                             }
