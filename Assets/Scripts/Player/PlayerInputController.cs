@@ -16,8 +16,18 @@ public class PlayerInputController : NetworkBehaviour {
         scriptGameManager.uipanelPlayerStats.SetActive(true);
     }
 
-    
-    
+    public float Ability1CD=3f;
+    public float Ability1CDcounter = 0f;
+    public Vector3 flyvec3;
+
+
+    [SyncVar]
+    public bool Ability1Switch = false;
+    [SyncVar]
+    public bool Ability1SwitchEnd = false;
+    [SyncVar]
+    public bool isinAbility1 = false;
+
 
     public GameObject gameobjBullet;
     public GameObject gameobjHeroAva;
@@ -57,23 +67,46 @@ public class PlayerInputController : NetworkBehaviour {
             DoAnimation(self_intIdle, self_intDir);
         }
 
+        if (Ability1Switch) {
+            Ability1Switch = false;
+            animator.SetTrigger("accelerate");
+            
+        }
+
+        if (Ability1SwitchEnd) {
+            animator.SetTrigger("accelerateend");
+            Ability1SwitchEnd = false;
+        }
+
         if (!isLocalPlayer) {
             
             return;
         }
-
+        Ability1CDcounter -= Time.deltaTime;
         //movement
         inputX = Input.GetAxis("Horizontal");
         inputY = Input.GetAxis("Vertical");
         Vector3 tempMovingV3 = new Vector3(inputX, inputY, 0);
         tempMovingV3.Normalize();
-        this.transform.position += tempMovingV3*Time.deltaTime*10;
+        
 
         //shooting
         inputX = Input.GetAxis("HorizontalFire");
         inputY = Input.GetAxis("VerticalFire");
         tempShootingV3 = new Vector3(inputX, inputY, 0);
         tempShootingV3.Normalize();
+
+        if (Ability1CDcounter <= 2.8f)
+        {
+            this.transform.position += tempMovingV3 * Time.deltaTime * 10;
+            Ability1SwitchEnd = true;
+            isinAbility1 = false;
+        }
+        else
+        {
+            //blink!
+            this.transform.position += flyvec3 * Time.deltaTime * 50;
+        }
 
         if (tempShootingV3.magnitude > 0.4f)
         {
@@ -94,7 +127,7 @@ public class PlayerInputController : NetworkBehaviour {
             else {
                 flosShootTimer -= Time.deltaTime;
             }
-            
+            flyvec3 = tempShootingV3;
         }
         else
         {
@@ -131,11 +164,21 @@ public class PlayerInputController : NetworkBehaviour {
                         }
                     }
                 }
-                
+                flyvec3 = tempMovingV3;
             }
             else {
                 //idle
                 CmdSyncAnimation(0, intDir);
+            }
+        }
+
+        if (Input.GetButtonDown("Ability1"))
+        {
+            if (Ability1CDcounter <= 0)
+            {
+                Ability1Switch = true;
+                Ability1CDcounter = Ability1CD;
+                isinAbility1 = true;
             }
         }
 
@@ -221,5 +264,31 @@ public class PlayerInputController : NetworkBehaviour {
         tempBullet.GetComponent<TeamTag>().teamnum = ownteam;
         NetworkServer.Spawn(tempBullet);
     }
+
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
+        if (!isinAbility1) {
+            return;
+        }
+
+        var hit = coll.gameObject;
+        var team = hit.GetComponent<TeamTag>();
+        if (team != null)
+        {
+            if (team.teamnum != ownteam)
+            {
+                //damage
+
+                hit.GetComponent<PlayerHealth>().TakeDamage(20);
+            }
+        }
+    }
+
 
 }

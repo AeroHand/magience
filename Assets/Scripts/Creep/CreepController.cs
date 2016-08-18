@@ -5,6 +5,8 @@ using System.Collections;
 public class CreepController : NetworkBehaviour {
 
     public GameObject creepAvatar;
+    Animator animator;
+
     public GameObject alertchild;
     private Alert scriptAlert;
     public GameObject gameobjBullet;
@@ -17,6 +19,7 @@ public class CreepController : NetworkBehaviour {
     void Start () {
         scriptAlert = alertchild.GetComponent<Alert>();
         ownteam = this.GetComponent<TeamTag>().teamnum;
+        animator = creepAvatar.GetComponent<Animator>();
     }
     void TheStart(int v)
     {   // you can't use start. But this is just as good.
@@ -27,6 +30,13 @@ public class CreepController : NetworkBehaviour {
     // Update is called once per frame
     void Update () {
         //check if he should attack or walk
+
+        if (!isServer)
+        {
+            return;
+        }
+
+
         checkstate();
         
 
@@ -91,6 +101,8 @@ public class CreepController : NetworkBehaviour {
             Vector3 tempMovingV3 = pathpoint[pathpointer].position - this.transform.position;
             tempMovingV3.Normalize();
             this.transform.position += tempMovingV3 * Time.deltaTime * 3;
+
+            animator.SetTrigger("walkleft");
         }
     }
 
@@ -99,9 +111,27 @@ public class CreepController : NetworkBehaviour {
     {
         GameObject tempBullet = Instantiate(gameobjBullet, this.transform.position + cmdv3shotingdir * 1.2f, Quaternion.identity) as GameObject;
         //BulletController tempscript = tempBullet.GetComponent<BulletController>();
+        if (cmdv3shotingdir.x > 0)
+        {
+            doanimationcreep(true, false);
+        }
+        else {
+            doanimationcreep(true, true);
+        }
         //tempscript.v3MovingDir = cmdv3shotingdir;
         tempBullet.GetComponent<Rigidbody2D>().velocity = cmdv3shotingdir * 4;
         tempBullet.GetComponent<TeamTag>().teamnum = ownteam;
         NetworkServer.Spawn(tempBullet);
+    }
+
+
+    void doanimationcreep(bool isattack, bool isleft) {
+        if (isleft)
+        {
+            animator.SetTrigger("attackleft");
+        }
+        else {
+            animator.SetTrigger("attackright");
+        }
     }
 }
