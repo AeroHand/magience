@@ -18,6 +18,7 @@ public class ItemPick : NetworkBehaviour
         {
             if (team.ishero)
             {
+                hit.GetComponent<PlayerInputController>().floShootRate = 0.2f;
                 Destroy(gameObject);
 
             }

@@ -8,8 +8,14 @@ public class PlayerHealth : NetworkBehaviour
     [SyncVar(hook = "OnChangeHealth")]
     public int currentHealth = 100;
 
+    public int fullHealth = 100;
+
     public RectTransform healthBar;
     public GameObject gameobjToken;
+
+    public GameObject gbar;
+    public GameObject hbar;
+
     // Use this for initialization
     void Start () {
 	
@@ -43,9 +49,8 @@ public class PlayerHealth : NetworkBehaviour
 
     void OnChangeHealth(int health)
     {
-        healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);
-        
-        
+        gbar.transform.localScale = new Vector3((health * 1f / fullHealth), gbar.transform.localScale.y, gbar.transform.localScale.z);
+        gbar.transform.position = hbar.transform.position + Vector3.left * (fullHealth - health) / (fullHealth) * 2;
     }
 
 

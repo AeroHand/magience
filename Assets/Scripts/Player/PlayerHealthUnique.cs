@@ -12,8 +12,11 @@ public class PlayerHealthUnique : NetworkBehaviour
 
     public int fullHealth = 100;
 
-    public RectTransform healthBar;
+    
     public GameObject gameobjToken;
+
+    public GameObject gbar;
+    public GameObject hbar;
 
     public RectTransform UIhealthBar;
     public Text UIHPText;
@@ -61,8 +64,9 @@ public class PlayerHealthUnique : NetworkBehaviour
 
     void OnChangeHealth(int health)
     {
+        gbar.transform.localScale = new Vector3((health *1f/ fullHealth), gbar.transform.localScale.y, gbar.transform.localScale.z);
+        gbar.transform.position = hbar.transform.position + Vector3.left * (fullHealth - health) / (fullHealth)*2;
 
-        healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);
         UIhealthBar.offsetMax=new Vector2(- 250 * (100 - health)/100f, UIhealthBar.offsetMax.y);
         UIHPText.text = (health).ToString()+"%";
     }

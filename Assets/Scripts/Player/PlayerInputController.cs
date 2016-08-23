@@ -258,11 +258,40 @@ public class PlayerInputController : NetworkBehaviour {
     void CmdFire(Vector3 cmdv3shotingdir)
     {
         GameObject tempBullet = Instantiate(gameobjBullet, this.transform.position+ cmdv3shotingdir*1.4f, Quaternion.identity) as GameObject;
+
+        /*
+        if (cmdv3shotingdir.x > 0.2)
+        {
+            tempBullet.transform.Rotate(Vector3.forward * -90);
+        }
+        else {
+            if (cmdv3shotingdir.x < -0.2)
+            {
+                tempBullet.transform.Rotate(Vector3.forward * 0);
+            }
+            else {
+                if (cmdv3shotingdir.y > 0.2)
+                {
+                    
+                    tempBullet.transform.Rotate(Vector3.forward * -180);
+                }
+                else
+                {
+                    if (cmdv3shotingdir.y < -0.2)
+                    {
+                        tempBullet.transform.Rotate(Vector3.forward * -270);
+                    }
+                }
+            }
+        }
+        */
         //BulletController tempscript = tempBullet.GetComponent<BulletController>();
         //tempscript.v3MovingDir = cmdv3shotingdir;
         tempBullet.GetComponent<Rigidbody2D>().velocity = cmdv3shotingdir*12;
         tempBullet.GetComponent<TeamTag>().teamnum = ownteam;
         NetworkServer.Spawn(tempBullet);
+
+
     }
 
 
