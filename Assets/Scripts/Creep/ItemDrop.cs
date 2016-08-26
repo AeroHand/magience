@@ -17,6 +17,7 @@ public class ItemDrop : NetworkBehaviour {
         {
             if (team.ishero)
             {
+                hit.GetComponent<PlayerHealthUnique>().currentToken += 1;
                 Destroy(gameObject);
 
             }

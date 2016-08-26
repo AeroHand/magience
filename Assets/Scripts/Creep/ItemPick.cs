@@ -18,9 +18,12 @@ public class ItemPick : NetworkBehaviour
         {
             if (team.ishero)
             {
-                hit.GetComponent<PlayerInputController>().floShootRate = 0.2f;
-                Destroy(gameObject);
-
+                if (hit.GetComponent<PlayerHealthUnique>().currentToken >= 20)
+                {
+                    hit.GetComponent<PlayerHealthUnique>().currentToken -= 20;
+                    hit.GetComponent<PlayerInputController>().floShootRate -= 0.1f;
+                    Destroy(gameObject);
+                }
             }
         }
     }

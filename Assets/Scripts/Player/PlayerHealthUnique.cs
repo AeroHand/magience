@@ -9,6 +9,9 @@ public class PlayerHealthUnique : NetworkBehaviour
     [SyncVar(hook = "OnChangeHealth")]
     public int currentHealth = 100;
 
+    [SyncVar(hook = "OnChangeToken")]
+    public int currentToken = 0;
+
 
     public int fullHealth = 100;
 
@@ -21,12 +24,14 @@ public class PlayerHealthUnique : NetworkBehaviour
     public RectTransform UIhealthBar;
     public Text UIHPText;
 
+    public Text UITokennum;
 
     public override void OnStartLocalPlayer()
     {
         base.OnStartLocalPlayer();
         UIhealthBar=GameObject.Find("GreenHP").GetComponent<RectTransform>();
         UIHPText = GameObject.Find("HPText").GetComponent<Text>();
+        UITokennum = GameObject.Find("TokenText").GetComponent<Text>();
     }
 
     // Use this for initialization
@@ -56,7 +61,16 @@ public class PlayerHealthUnique : NetworkBehaviour
 
             CmdSpawnToken();
 
-            Destroy(gameObject);
+            if (this.GetComponent<TeamTag>().teamnum == 1)
+            {
+                this.transform.position = new Vector3(60, 87, 0);
+                currentHealth = 100;
+            }
+            else {
+                this.transform.position = new Vector3(116, 143, 0);
+                currentHealth = 100;
+            }
+
 
         }
 
@@ -69,6 +83,12 @@ public class PlayerHealthUnique : NetworkBehaviour
 
         UIhealthBar.offsetMax=new Vector2(- 250 * (100 - health)/100f, UIhealthBar.offsetMax.y);
         UIHPText.text = (health).ToString()+"%";
+    }
+
+    void OnChangeToken(int tokennum)
+    {
+
+        UITokennum.text = (tokennum).ToString();
     }
 
 

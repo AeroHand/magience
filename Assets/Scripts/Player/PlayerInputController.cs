@@ -55,7 +55,10 @@ public class PlayerInputController : NetworkBehaviour {
 
     private Vector3 tempShootingV3;
     private int ownteam;
-    public float floShootRate=0.4f;
+
+    [SyncVar]
+    public float floShootRate=0.6f;
+
     private float flosShootTimer=0;
     // Update is called once per frame
     void Update () {
@@ -250,7 +253,7 @@ public class PlayerInputController : NetworkBehaviour {
         }
         else
         {
-            this.transform.position = new Vector3(88, 115, 0);
+            this.transform.position = new Vector3(116, 143, 0);
         }
     }
 
@@ -287,7 +290,7 @@ public class PlayerInputController : NetworkBehaviour {
         */
         //BulletController tempscript = tempBullet.GetComponent<BulletController>();
         //tempscript.v3MovingDir = cmdv3shotingdir;
-        tempBullet.GetComponent<Rigidbody2D>().velocity = cmdv3shotingdir*12;
+        tempBullet.GetComponent<Rigidbody2D>().velocity = cmdv3shotingdir*20;
         tempBullet.GetComponent<TeamTag>().teamnum = ownteam;
         NetworkServer.Spawn(tempBullet);
 
